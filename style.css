@@ -117,6 +117,14 @@
 
 }
 
+.main-content > div > div > span{
+
+    color: #475569;
+
+    font-size: calc(6px + 0.5vw);
+
+}
+
 
 body{
 
@@ -191,6 +199,14 @@ button{
 
     width: max(200px, 15vw);
 
+}
+
+.second > div > span{
+
+    font-size: calc(5px + 0.5vw);
+
+    color: #475569;
+    
 }
 
 .mid{
