@@ -175,11 +175,13 @@ button{
     border: solid 0px;
 }
 
-.buttons{
+.header > div{
 
     display: flex;
 
     align-items: center;
+
+    justify-content: center;
 
     gap: 25px;
 
@@ -214,5 +216,35 @@ button{
     border-top: 2px solid #e2e8f0;
 
     border-bottom: 2px solid #e2e8f0;
+
+}
+
+#search{
+
+    border: solid 0px;
+
+    background-color: #e2e8f0;
+
+    border-radius: 20px;
+
+    width: max(350px, 35vw);
+
+    height: 40px;
+
+    padding: 15px;
+
+}
+
+.header > .profile{
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+    gap: 0px;
+
+    padding-left: max(100px, 10vw);
 
 }
