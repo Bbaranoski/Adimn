@@ -266,3 +266,31 @@ button{
     padding-left: max(100px, 10vw);
 
 }
+
+.third > div > span{
+
+    color: #475569;
+
+    font-size: 14px;
+
+}
+
+img{
+
+    width: 25px;
+
+    align-self: center;
+
+    justify-self: center;
+
+    filter: brightness(0) invert(1);
+
+    grid-column: 1/2;
+
+}
+
+.footer > div > span {
+
+    align-self: center;
+
+}
